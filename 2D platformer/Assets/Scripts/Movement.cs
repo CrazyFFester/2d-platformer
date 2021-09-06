@@ -48,7 +48,7 @@ public class Movement : MonoBehaviour
 
             ChangeSide(true);
 
-            _animator.SetFloat("Speed", 1);
+            _animator.SetFloat(AnimatorPlayerController.Params.Speed, 1);
             return;
         }
 
@@ -57,10 +57,18 @@ public class Movement : MonoBehaviour
             transform.Translate(_speed * Time.deltaTime, 0, 0);
 
             ChangeSide(false);
-            _animator.SetFloat("Speed", 1);
+            _animator.SetFloat(AnimatorPlayerController.Params.Speed, 1);
             return;
         }
 
-        _animator.SetFloat("Speed", 0);
+        _animator.SetFloat(AnimatorPlayerController.Params.Speed, 0);
+    }
+}
+
+public static class AnimatorPlayerController
+{
+    public static class Params
+    {
+        public const string Speed = nameof(Speed);
     }
 }

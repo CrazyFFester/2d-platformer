@@ -2,14 +2,9 @@ using UnityEngine;
 
 public class Wallet : MonoBehaviour
 {
-    private int _totalMoney;
+    private int _totalMoney; 
 
-    public void Start()
-    {
-        _totalMoney = 0;
-    }
-
-    public void AddingCoin()
+    public void AddCoin()
     {
         _totalMoney++;
         Debug.Log("Total money - " + _totalMoney);

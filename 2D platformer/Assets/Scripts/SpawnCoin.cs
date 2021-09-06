@@ -18,10 +18,10 @@ public class SpawnCoin : MonoBehaviour
         {
             _spawnPoints[i] = _spawnZone.GetChild(i);
         }
-        StartCoroutine("PlacingCoins");
+        StartCoroutine(PlaceCoins());
     }
 
-    private IEnumerator PlacingCoins()
+    private IEnumerator PlaceCoins()
     {
         WaitForSeconds waitForSeconds = new WaitForSeconds(_spawnRate);
 

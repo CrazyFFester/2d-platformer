@@ -486,6 +486,74 @@ Transform:
   m_Father: {fileID: 204279863}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &813230383 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6454178208874768720, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+  m_PrefabInstance: {fileID: 833199720}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f6fc39864ade648bf4e32ce008e2c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &833199720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6230559840486581632, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_Name
+      value: Wallet
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.9196542
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.80209374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -222.58655
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230559840486581638, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a2ea3af8b3749c43becfb2e35cba024, type: 3}
 --- !u!1001 &1045558961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -659,6 +727,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed6a739b54b157e4abe885e6e3b0be09, type: 3}
+--- !u!1 &1048775486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7103518556732523140, guid: c43f616ce8c9d5d4f992b69b5fd3c6af, type: 3}
+  m_PrefabInstance: {fileID: 7103518556830780940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048775494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048775486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c694d06b901ed2840965d9e4815e4f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wallet: {fileID: 813230383}
 --- !u!4 &1058478810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8898215067738727664, guid: eb39a43294474dc4ea3c28125fb04479, type: 3}

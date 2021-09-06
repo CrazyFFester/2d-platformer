@@ -24,6 +24,8 @@ public class WayPointMovement : MonoBehaviour
         {
             _points[i] = _path.GetChild(i);
         }
+
+        _animator.SetFloat(AnimatorEnemyController.Params.Speed, 1);
     }
 
     private void Update()
@@ -31,7 +33,6 @@ public class WayPointMovement : MonoBehaviour
         Transform target = _points[_currentPoint];
 
         transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
-        _animator.SetFloat("Speed", 1);
 
         if ((Vector2)transform.position == (Vector2)target.position)
         {
@@ -43,5 +44,13 @@ public class WayPointMovement : MonoBehaviour
                 _currentPoint = 0;
             }
         }
+    }
+}
+
+public static class AnimatorEnemyController
+{
+    public static class Params
+    {
+        public const string Speed = nameof(Speed);
     }
 }
