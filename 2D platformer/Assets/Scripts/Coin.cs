@@ -10,7 +10,5 @@ public class Coin : MonoBehaviour
     {
         _boxCollider2D = GetComponent<BoxCollider2D>();
         _boxCollider2D.isTrigger = true;
-
-        Console.WriteLine("Hello World");
     }
 }
